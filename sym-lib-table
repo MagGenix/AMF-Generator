@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "UCD8220")(type "KiCad")(uri "${KIPRJMOD}/UCD8220.kicad_sym")(options "")(descr ""))
+  (lib (name "SO_DIODE")(type "KiCad")(uri "${KIPRJMOD}/SO_DIODE.kicad_sym")(options "")(descr ""))
+  (lib (name "RMS_to_DC")(type "KiCad")(uri "${KIPRJMOD}/RMS_to_DC.kicad_sym")(options "")(descr ""))
+  (lib (name "NLSX4373DR2G")(type "KiCad")(uri "${KIPRJMOD}/NLSX4373DR2G.kicad_sym")(options "")(descr ""))
+)
