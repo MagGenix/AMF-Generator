@@ -1,0 +1,3 @@
+[submodule "xiaomao"]
+	path = xiaomao
+	url = https://github.com/tigard-tools/xiaomao.git
