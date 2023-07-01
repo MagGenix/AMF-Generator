@@ -1780,7 +1780,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 432603e8-e834-466b-a302-f0e0bfac40a0)
   )
-  (text "TODOS:\nx Bypass Caps\nx Pullup R values?\nx Define R11, R12\nx Rerun LTSPICE with new gate resistor order\nx Set I2C ADDR\n* Double check capacitor ampacity\n"
+  (text "VOC: 0.25*Vcc" (at 216.535 95.885 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5bf90cda-911a-435d-8216-e10dd6270b67)
+  )
+  (text "TODOS:\nx Bypass Caps\nx Pullup R values?\nx Define R11, R12\nx Rerun LTSPICE with new gate resistor order\nx Set I2C ADDR\n* Double check capacitor ampacity\n* Double check FAULT logic"
     (at 156.21 127 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6b3bbf20-357d-446b-896f-c00e5da15e02)
