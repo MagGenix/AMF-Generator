@@ -4,5 +4,5 @@
   (lib (name "SO_DIODE")(type "KiCad")(uri "${KIPRJMOD}/SO_DIODE.kicad_sym")(options "")(descr ""))
   (lib (name "RMS_to_DC")(type "KiCad")(uri "${KIPRJMOD}/RMS_to_DC.kicad_sym")(options "")(descr ""))
   (lib (name "NLSX4373DR2G")(type "KiCad")(uri "${KIPRJMOD}/NLSX4373DR2G.kicad_sym")(options "")(descr ""))
-  (lib (name "Seeeduino XIAO")(type "Legacy")(uri "${KIPRJMOD}/xiaomao/Seeeduino XIAO KICAD/Seeeduino XIAO.lib")(options "")(descr ""))
+  (lib (name "QTPY")(type "KiCad")(uri "${KIPRJMOD}/QTPY/QTPY.kicad_sym")(options "")(descr ""))
 )
