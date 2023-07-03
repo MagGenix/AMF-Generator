@@ -1321,7 +1321,7 @@
     (property "ki_keywords" "capacitor cap")
     (path "/c9d53215-57f2-4e7d-aa5e-6d227a0ef0d2/12fc6133-5795-4f31-bf8e-de36115aa10a")
     (attr smd)
-    (fp_text reference "C32" (at 3.0875 0.5 90) (layer "F.SilkS")
+    (fp_text reference "C32" (at 3.0875 1 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3484805d-f831-4625-8688-ee6d84474e7a)
     )
@@ -3972,7 +3972,7 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp dbe3b556-3e1d-4908-8949-a9debfc7cae7))
   (gr_line (start 98 18.75) (end 163 18.75)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp e5ebc8f7-b428-4544-991e-b12c306994fe))
-  (gr_text "+12V" (at 165.25 56.5 -90) (layer "B.SilkS") (tstamp 02e17b31-3217-4b6c-a2f6-e1bb01504e57)
+  (gr_text "+12V" (at 164.25 56.5 -90) (layer "B.SilkS") (tstamp 02e17b31-3217-4b6c-a2f6-e1bb01504e57)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
   )
   (gr_text "3V3" (at 120.75 92) (layer "B.SilkS") (tstamp 0ae24a42-312e-448a-a2f1-0728cc5cf34b)
@@ -3996,7 +3996,7 @@
   (gr_text "5V I2C" (at 111 90.75) (layer "B.SilkS") (tstamp 73ea31fc-702e-4806-9a7c-512918fc8262)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
   )
-  (gr_text "GND" (at 165.25 51.25 -90) (layer "B.SilkS") (tstamp 7ebb1364-d1dd-46de-8bd5-487e8a7c7c91)
+  (gr_text "GND" (at 164.25 51.25 -90) (layer "B.SilkS") (tstamp 7ebb1364-d1dd-46de-8bd5-487e8a7c7c91)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left bottom mirror))
   )
   (gr_text "SCL" (at 125.75 92) (layer "B.SilkS") (tstamp 7fda2fc8-91cc-4132-942e-9f53ea7ed294)
@@ -4013,6 +4013,9 @@
   )
   (gr_text "SCL" (at 111.5 92) (layer "F.SilkS") (tstamp 030a1d9b-09b1-4843-9dd0-92a1de6c841e)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left bottom))
+  )
+  (gr_text "SWITCHING" (at 157.75 35 90) (layer "F.SilkS") (tstamp 044b42f2-e1e0-42d4-8160-4c3e6e305220)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
   (gr_text "+5V" (at 106 92) (layer "F.SilkS") (tstamp 0af2a3c2-91fd-4922-8907-7a8a2bbb4b7a)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left bottom))
@@ -4031,6 +4034,9 @@
   )
   (gr_text "3V" (at 126 93.75) (layer "F.SilkS") (tstamp 3b7e3578-9e58-4275-9b91-9373f7cbce48)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left bottom))
+  )
+  (gr_text "CURRENT SENSE" (at 102.5 34.75 90) (layer "F.SilkS") (tstamp 46fceed4-0b8b-4f33-a4d2-24c79b552a33)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
   )
   (gr_text "SDA" (at 108.75 92) (layer "F.SilkS") (tstamp 52b89f8b-64f7-405b-a3c8-67133eb616ef)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify left bottom))
@@ -4182,7 +4188,6 @@
   (segment (start 139.825 69.705) (end 154.62 84.5) (width 0.25) (layer "F.Cu") (net 16) (tstamp f9e17222-2e2f-458f-970a-bfe34c8b8544))
   (segment (start 144.05 69.55) (end 147.5 73) (width 0.25) (layer "F.Cu") (net 17) (tstamp 137e0ed3-6b54-4f0a-ae17-a6f5e7a3fc25))
   (segment (start 137.25 69.5) (end 135.3375 69.5) (width 0.25) (layer "F.Cu") (net 17) (tstamp 47e25466-9744-43d0-b03c-46e8e179ad4d))
-  (segment (start 143.75 69.55) (end 144.05 69.55) (width 0.25) (layer "F.Cu") (net 17) (tstamp 580e6cb7-3279-44d5-993d-5ef4c5ebc7e8))
   (segment (start 141.8 69.55) (end 143.75 69.55) (width 0.25) (layer "F.Cu") (net 17) (tstamp 628bbd2c-4ec3-42a1-a871-bb5fdfd18af4))
   (segment (start 158.5 90.25) (end 156.63 92.12) (width 0.25) (layer "F.Cu") (net 17) (tstamp 7a5433a8-9c81-4d5d-8977-126328802415))
   (segment (start 158.5 76.5) (end 158.5 90.25) (width 0.25) (layer "F.Cu") (net 17) (tstamp 7fcbf0b0-4b63-4a9e-bfda-024807243cbb))
@@ -4191,10 +4196,8 @@
   (segment (start 141.75 69.5) (end 141.8 69.55) (width 0.25) (layer "F.Cu") (net 17) (tstamp a451dab8-0ca3-4e35-a259-a2d15c898886))
   (segment (start 117.135 58.073173) (end 128.474327 69.4125) (width 0.25) (layer "F.Cu") (net 17) (tstamp a6078648-2708-47be-a808-96527d7f7a3f))
   (segment (start 155 73) (end 158.5 76.5) (width 0.25) (layer "F.Cu") (net 17) (tstamp bf5758fa-016b-4688-b27a-28691ba7c4a9))
-  (segment (start 135.3375 69.5) (end 135.25 69.4125) (width 0.25) (layer "F.Cu") (net 17) (tstamp c5548a98-31ad-4838-9e2e-03271347945a))
   (segment (start 143.635 69.435) (end 143.635 64.65) (width 0.25) (layer "F.Cu") (net 17) (tstamp d02a6b1e-52aa-4309-932d-4916b53621a0))
   (segment (start 147.5 73) (end 155 73) (width 0.25) (layer "F.Cu") (net 17) (tstamp de49f7bd-0344-4922-962b-1d5fec2ecd4f))
-  (segment (start 143.75 69.55) (end 143.635 69.435) (width 0.25) (layer "F.Cu") (net 17) (tstamp f11c8e90-508e-41cf-9c4f-aea9d3af6830))
   (via (at 137.25 69.5) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 17) (tstamp 2ed3865b-fb19-4fee-998f-5e36adbdc6b5))
   (via (at 141.75 69.5) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (net 17) (tstamp 37a26873-8571-4c04-9b76-28014d5d9676))
   (segment (start 137.25 69.5) (end 141.75 69.5) (width 0.25) (layer "B.Cu") (net 17) (tstamp dc2275d1-15c0-4cbf-8add-86d68baa5ba7))
@@ -16439,11 +16442,12 @@
         (xy 159.656879 53.28304)
         (xy 159.601704 53.240174)
         (xy 159.586344 53.211625)
-        (xy 159.580219 53.195475)
+        (xy 159.58022 53.195477)
+        (xy 159.533251 53.127431)
         (xy 159.490484 53.065471)
         (xy 159.451322 53.030777)
         (xy 159.37224 52.960717)
-        (xy 159.358994 52.953765)
+        (xy 159.307856 52.926925)
         (xy 159.232364 52.887303)
         (xy 159.078985 52.8495)
         (xy 158.921015 52.8495)
@@ -16455,7 +16459,7 @@
         (xy 158.417774 53.001056)
         (xy 158.372241 52.960718)
         (xy 158.37224 52.960717)
-        (xy 158.302302 52.92401)
+        (xy 158.286832 52.915891)
         (xy 158.232364 52.887303)
         (xy 158.078985 52.8495)
         (xy 157.921015 52.8495)
@@ -23651,7 +23655,6 @@
       3d6441a4-a80d-4cb1-aa83-a7f7bbfdfc82
       4b44a1d9-f7b2-4ed1-affc-8a051b094c8f
       51592da7-5a05-466d-aecf-9ff220fdef48
-      580e6cb7-3279-44d5-993d-5ef4c5ebc7e8
       62d9ea48-b1ec-4e43-91a1-bfd589a32376
       6ebcf974-3cc6-46f8-aae1-463f5665e4f2
       74fdc754-1811-4054-afa7-4a8bfe263583
@@ -23678,7 +23681,6 @@
       deb45ee7-87ce-449e-8758-6f5746d3574b
       e22f0d89-402e-495f-aeac-960b2467ddbf
       e8c0f29b-6551-4198-8da2-a9a62d69014d
-      f11c8e90-508e-41cf-9c4f-aea9d3af6830
       fd4e7c6f-1e2a-4f64-a786-0167e60635f1
       fdd41ff4-aadd-48e8-b1fd-72ed46a22761
     )
