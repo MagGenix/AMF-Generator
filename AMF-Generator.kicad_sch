@@ -2066,7 +2066,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5bf90cda-911a-435d-8216-e10dd6270b67)
   )
-  (text "TODOS:\nx Bypass Caps\nx Pullup R values?\nx Define R11, R12\nx Rerun LTSPICE with new gate resistor order\nx Set I2C ADDR\n* Double check capacitor ampacity\nx Double check FAULT logic\n* Should NC pins be grounded?\n* Check diode orientation & fix schematic symbol"
+  (text "TODOS:\nx Bypass Caps\nx Pullup R values?\nx Define R11, R12\nx Rerun LTSPICE with new gate resistor order\nx Set I2C ADDR\n* Double check capacitor ampacity\nx Double check FAULT logic\n* Should NC pins be grounded?\n* Check diode orientation & fix schematic symbol\n* Calculate appropriate gate resistor value - 20 may be too high"
     (at 156.21 127 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6b3bbf20-357d-446b-896f-c00e5da15e02)
