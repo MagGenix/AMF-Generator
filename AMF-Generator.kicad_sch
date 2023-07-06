@@ -2090,12 +2090,13 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6b3bbf20-357d-446b-896f-c00e5da15e02)
   )
-  (text "Assuming source resistance of 100m,\n10000uF is sufficient to hold up the supply at 12V."
-    (at 45.72 55.88 0)
+  (text "Assuming source resistance of 100m,\n10000uF is sufficient to hold up the supply at 12V.\nNot onboard! Needs to be provided externally."
+    (at 45.72 57.785 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7d10b82b-83d7-482d-974f-c4a7a3cf815d)
   )
-  (text "UVLO: 5/8V options" (at 60.96 71.12 0)
+  (text "UVLO: 5/8V options\nPWMA, PWMB internally\npulled low"
+    (at 59.69 71.755 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8e8db828-8c56-4914-8163-b2bdf54442c3)
   )
