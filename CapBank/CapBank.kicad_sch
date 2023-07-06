@@ -880,7 +880,7 @@
     (uuid ff1bf155-4e1f-4545-b1f4-57b4dd4ebe88)
   )
 
-  (text "Double check capacitor ampacity\nChange CONN to Molex 0389690002 (can withstand worst case scenario RMS current)"
+  (text "x Double check capacitor ampacity\nx Change CONN to Molex 0389690002 (can withstand worst case scenario RMS current)"
     (at 141.605 46.355 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 063be27b-af35-4fac-94bc-fbf74453a649)
