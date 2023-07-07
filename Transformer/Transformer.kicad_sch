@@ -312,6 +312,11 @@
     (uuid db69d482-6bc9-4aa2-aaa8-bdd0e82728e3)
   )
 
+  (text "Consider adding fuse to this board" (at 198.755 90.17 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 366279f5-ec8a-406e-b40b-37acedcef8ec)
+  )
+
   (global_label "OUT2" (shape input) (at 151.765 97.155 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 049766ac-067a-493d-b681-c61de38ab016)

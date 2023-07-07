@@ -885,6 +885,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 063be27b-af35-4fac-94bc-fbf74453a649)
   )
+  (text "Consider adding fuse to this board" (at 154.305 81.915 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 949e6ea6-4cab-4511-a456-f9281d92be5f)
+  )
 
   (symbol (lib_id "Device:C_Small") (at 125.73 90.805 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
