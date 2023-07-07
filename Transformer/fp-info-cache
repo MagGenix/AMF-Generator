@@ -1,11 +1,4 @@
-21677583951804837
-8PCV-02-006
-8PCV02006
-8PCV-02-006-1
-Connector
-0
-2
-2
+21674234171746330
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -32,8 +25,8 @@ BarrierBlock
 
 
 0
-2
-2
+3
+3
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -80016,13 +80009,6 @@ Potentiometer vertical Vishay T73YP
 0
 3
 3
-QTPY
-QTPY-RP2040
-
-
-0
-14
-14
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
