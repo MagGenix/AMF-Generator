@@ -1076,34 +1076,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 165.1 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1e5c25c6-1430-43c5-9af4-7a68afa8513d)
-    (property "Reference" "#PWR037" (at 165.1 92.71 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 165.1 91.44 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 165.1 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 165.1 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b62c9e8d-259c-401a-adea-4a85019b0fa7))
-    (instances
-      (project "AMF-Generator"
-        (path "/c3df021c-646c-4a68-ac14-a081c2121d02"
-          (reference "#PWR037") (unit 1)
-        )
-        (path "/c3df021c-646c-4a68-ac14-a081c2121d02/deb1fbb3-49ca-4dbd-9206-e1712cc02a38"
-          (reference "#PWR047") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "power:GND") (at 97.155 78.105 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e7970ba-09f7-4b40-b844-acd3e3a3712e)
@@ -1210,34 +1182,6 @@
       (project "AMF-Generator"
         (path "/c3df021c-646c-4a68-ac14-a081c2121d02/deb1fbb3-49ca-4dbd-9206-e1712cc02a38"
           (reference "C31") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3V3") (at 165.1 81.28 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 34d3ff9f-77a4-4360-bc88-4dfea01c45c1)
-    (property "Reference" "#PWR038" (at 165.1 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3" (at 165.1 77.47 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 165.1 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 165.1 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b8a0142a-4ca8-4e23-a930-dde10524be64))
-    (instances
-      (project "AMF-Generator"
-        (path "/c3df021c-646c-4a68-ac14-a081c2121d02"
-          (reference "#PWR038") (unit 1)
-        )
-        (path "/c3df021c-646c-4a68-ac14-a081c2121d02/deb1fbb3-49ca-4dbd-9206-e1712cc02a38"
-          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -1477,32 +1421,6 @@
       (project "AMF-Generator"
         (path "/c3df021c-646c-4a68-ac14-a081c2121d02/deb1fbb3-49ca-4dbd-9206-e1712cc02a38"
           (reference "U9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 165.1 83.82 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8abbdcb8-2c55-4f74-8754-d1879a5399dd)
-    (property "Reference" "C23" (at 168.275 83.1913 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "0.1uF" (at 168.275 85.7313 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 165.1 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 165.1 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4754f282-d018-4272-ad96-022f1afec408))
-    (pin "2" (uuid 2ed91275-cf4c-4411-bb5e-ab87c2e95e52))
-    (instances
-      (project "AMF-Generator"
-        (path "/c3df021c-646c-4a68-ac14-a081c2121d02/deb1fbb3-49ca-4dbd-9206-e1712cc02a38"
-          (reference "C23") (unit 1)
         )
       )
     )
