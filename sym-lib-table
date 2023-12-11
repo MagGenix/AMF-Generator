@@ -5,4 +5,5 @@
   (lib (name "RMS_to_DC")(type "KiCad")(uri "${KIPRJMOD}/RMS_to_DC.kicad_sym")(options "")(descr ""))
   (lib (name "NLSX4373DR2G")(type "KiCad")(uri "${KIPRJMOD}/NLSX4373DR2G.kicad_sym")(options "")(descr ""))
   (lib (name "QTPY")(type "KiCad")(uri "${KIPRJMOD}/QTPY/QTPY.kicad_sym")(options "")(descr ""))
+  (lib (name "LSF0102")(type "KiCad")(uri "${KIPRJMOD}/LSF0102.kicad_sym")(options "")(descr ""))
 )
